@@ -1,0 +1,119 @@
+/* body{
+    position: relative;
+} */
+/* .navbar{
+    position: fixed;
+    top: 0;
+} */
+.footer-color{
+    background-color: #563d7c;
+}
+
+  
+
+/* position des link of navbar */
+.navbar-nav{
+    position: absolute;
+    right: 0;
+}
+
+/* change the color of icone reseaux sociaux */
+a {
+    color:inherit;
+  }
+.reseaux-sociaux a:hover{
+    color: #fff;
+}  
+
+
+
+.img-carrousel{
+    filter: opacity(0.7);
+    height: 100vh;
+}
+.navbar{
+    background-color: #563d7c;
+}
+
+.carousel-caption {
+    font-size: 51px;
+    margin-bottom: 150px;
+    font-family: ui-serif;
+    color: seashell;
+}
+
+.title-slider{
+        font-size: 40px;
+}
+.insciption-section{
+    
+    box-shadow: 3px 20px 20px 10px rgb(163 162 162);
+}
+
+.sub-footer{
+    background-color: #977fbb;
+}
+
+/* change color f links navbar */
+.navbar a{
+    color: #ffe484;
+}
+
+.navbar-height{
+    padding-top: 60px;
+}
+/* header-info */
+.header-info{
+    color: #ffe484;
+    background-color: #563d7c;
+}
+/* .reseaux-sociaux{
+    position: relative;
+    right: 0;
+} */
+
+.icon-color{
+    color: white; 
+}
+
+/* change color of card */
+li.list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+/* .card:hover{
+    box-shadow: 4px rgb(163 162 162);
+    transform:scale(1.15);
+} */
+
+/* make text in the same line of icone */
+.card-text-item{
+    margin-top: -5px !important;
+}
+
+/* change color of icone  */
+.item-card .fas, .item-card .far{
+ color: #e7c449c7;
+}
+
+/* animate image when we focus */
+
+.card-img-top {
+    display: inline-block;
+    overflow: hidden;
+}
+
+/* /* .card-img-top:hover {
+    transform:scale(0.2);
+    -ms-transform:scale(1.5);
+    -moz-transform:scale(1.5); 
+    -webkit-transform:scale(1.5); 
+    -o-transform:scale(1.5); 
+}  */
+
+/* change photo of profile to be ovale */
+img.img-fluid {
+    border-radius: 50%;
+    /* width: 35%; */
+}
+
