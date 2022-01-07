@@ -6,7 +6,7 @@
     top: 0;
 } */
 .footer-color{
-    background-color: #563d7c;
+    background-color: #3c4043;
 }
 
   
@@ -17,12 +17,20 @@
     right: 0;
 }
 
+.test{
+    border-bottom: red;
+}
+/* chnage color of nav-item hover */
+.nav-item:hover{
+    color:#ea4335;
+}
+
 /* change the color of icone reseaux sociaux */
 a {
     color:inherit;
   }
 .reseaux-sociaux a:hover{
-    color: #fff;
+    color: #ea4335;
 }  
 
 
@@ -32,7 +40,7 @@ a {
     height: 100vh;
 }
 .navbar{
-    background-color: #563d7c;
+    background-color: #3c4043;
 }
 
 .carousel-caption {
@@ -51,12 +59,12 @@ a {
 }
 
 .sub-footer{
-    background-color: #977fbb;
+    background-color: #707174;
 }
 
 /* change color f links navbar */
 .navbar a{
-    color: #ffe484;
+    color: black;
 }
 
 .navbar-height{
@@ -64,8 +72,8 @@ a {
 }
 /* header-info */
 .header-info{
-    color: #ffe484;
-    background-color: #563d7c;
+    color: black;
+    background-color: #3c4043;
 }
 /* .reseaux-sociaux{
     position: relative;
@@ -121,7 +129,19 @@ img.img-fluid {
 
 .img-card-h{
     margin-left: -25px;
+    /* position: relative; */
 }
+
+/* icone over image card */
+
+/* .img-card-h > i {
+    position: absolute;
+    background: white;
+    bottom: 0;
+    left: 0;
+  } */
+
+  
 
 /* style of the button scrol to tp */
 #myBtn {
@@ -132,7 +152,7 @@ img.img-fluid {
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: #563d7c; /* Set a background color */
+    background-color: #ea4335; /* Set a background color */
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
